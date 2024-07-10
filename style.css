@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background:url(background\ netflix.jfif) no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a black overlay */
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+}
+
+.logo {
+  margin: 20px;
+  padding: px;
+  width: 150px;
+}
+
+
+.sign-in-btn {
+  margin: 20px;
+  padding: 10px;
+  width: 120px;
+  height: 50px;
+  background-color: red;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.content h1 {
+  font-size: 4em;
+  margin-bottom: 20px;
+}
+
+.content h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 1.3em;
+  margin-bottom: 20px;
+}
+
+.email-form {
+  
+  display: flex;
+  color: white;
+  margin: 10px;
+}
+
+.email-form input {
+  width: 90%;
+  border-radius: 0.1%;
+  margin-left: 60px;
+  padding: 10px;
+  font-size: 1.2em;
+  border: none;
+  opacity: 0.8;
+  background-color: rgb(44, 43, 43);
+  outline: auto;
+}
+
+.get-started-btn {
+  width: 30%;
+  min-height: 46px;
+  margin: 10px;
+  font-size: 1.2em;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
